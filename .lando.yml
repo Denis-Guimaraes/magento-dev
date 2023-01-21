@@ -1,0 +1,10 @@
+name: magento-dev
+recipe: lamp
+config:
+  php: '8.1'
+  composer_version: '2.2.18'
+  webroot: .
+  database: mysql:8.0
+services:
+  search:
+    type: elasticsearch:7
