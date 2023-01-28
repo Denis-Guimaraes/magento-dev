@@ -29,7 +29,9 @@
     },
     "phpsab.snifferMode": "onType",
     "phpsab.standard": "/phpcs.xml",
+    "phpsab.snifferShowSources": true,
     "xml.catalogs": [".vscode/catalog.xml"],
+    "xml.format.maxLineWidth": 120,
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.svn/**",

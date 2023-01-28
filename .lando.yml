@@ -6,6 +6,8 @@ config:
   webroot: .
   database: mysql:8.0
 services:
+  pma:
+    type: phpmyadmin
   search:
     type: elasticsearch:7
   appserver:
