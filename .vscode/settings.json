@@ -1,0 +1,52 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "php.suggest.basic": false,
+    "editor.minimap.enabled": false,
+    "files.eol": "\n",
+    "editor.inlineSuggest.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.hover.above": false,
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "[php]": {
+        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "files.associations": {
+        "*.phtml": "php"
+    },
+    "phpsab.snifferMode": "onType",
+    "phpsab.standard": "/phpcs.xml",
+    "xml.catalogs": [".vscode/catalog.xml"],
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Tests,tests}/**",
+        "**/.history/**",
+        "**/vendor/**/vendor/**",
+        "app/etc/**",
+        "app/autoload.php",
+        "app/bootstrap.php",
+        "lib/**",
+        "phpserver/**",
+        "pub/**",
+        "setup/**"
+    ]
+}
