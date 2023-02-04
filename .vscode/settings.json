@@ -2,23 +2,28 @@
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
-    "php.suggest.basic": false,
     "editor.minimap.enabled": false,
-    "files.eol": "\n",
     "editor.inlineSuggest.enabled": true,
     "editor.guides.bracketPairs": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.hover.above": false,
     "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "php.suggest.basic": false,
     "emmet.includeLanguages": {
         "vue-html": "html",
         "javascript": "javascriptreact"
     },
-    "workbench.colorTheme": "Default Dark+",
     "[php]": {
         "editor.defaultFormatter": "valeryanm.vscode-phpsab"
     },
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[xml]": {
@@ -27,9 +32,12 @@
     "files.associations": {
         "*.phtml": "php"
     },
-    "phpsab.snifferMode": "onType",
+    "phpsab.snifferMode": "onSave",
     "phpsab.standard": "/phpcs.xml",
     "phpsab.snifferShowSources": true,
+    "phpmd.unsafeCommand": "vendor/bin/phpmd",
+    "phpmd.rules": "/phpmd.xml",
+    "phpmd.verbose": false,
     "xml.catalogs": [".vscode/catalog.xml"],
     "xml.format.maxLineWidth": 120,
     "intelephense.files.exclude": [

@@ -1,0 +1,6 @@
+grumphp:
+  tasks:
+    composer_script:
+      script: grumphp
+      triggered_by: [php]
+      working_directory: ~

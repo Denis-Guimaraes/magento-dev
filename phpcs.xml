@@ -2,5 +2,7 @@
 <ruleset name="Magento2_custom">
     <description>Ajustement des règles Magento 2</description>
     <rule ref="Magento2">
+        <exclude name="Magento2.Commenting.ClassPropertyPHPDocFormatting.Missing" />
+        <exclude name="Magento2.Annotation.MethodAnnotationStructure.MethodArguments" />
     </rule>
 </ruleset>

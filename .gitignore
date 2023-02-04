@@ -52,5 +52,4 @@ atlassian*
 /grunt-config.json.sample
 /nginx.conf.sample
 /package.json.sample
-
-
+/tmp
