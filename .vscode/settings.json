@@ -58,5 +58,11 @@
         "phpserver/**",
         "pub/**",
         "setup/**"
-    ]
+    ],
+    "intelephense.environment.includePaths": [
+        "generated/",
+        "vendor/phpunit/"
+    ],
+    "intelephense.files.maxSize": 10000000,
+    "intelephense.maxMemory": 4096
 }

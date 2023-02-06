@@ -104,10 +104,12 @@
         "magento-force": "override"
     },
     "scripts": {
+        "test": "./vendor/bin/phpunit -c dev/tests/unit/phpunit.xml.dist app",
         "phpcs": "vendor/bin/phpcs --standard=phpcs.xml --extensions=php,phtml --ignore=app/etc/*,app/autoload.php,app/bootstrap.php app",
-        "phpcpd": "vendor/bin/phpcpd app",
+        "phpcpd": "vendor/bin/phpcpd --exclude app/code/*/*/Test app",
         "phpmd": "vendor/bin/phpmd app text phpmd.xml",
         "grumphp": [
+            "@test",
             "@phpcs",
             "@phpcpd",
             "@phpmd"
