@@ -40,6 +40,9 @@
     "phpmd.verbose": false,
     "xml.catalogs": [".vscode/catalog.xml"],
     "xml.format.maxLineWidth": 120,
+    "intelephense.environment.phpVersion": "8.1",
+    "intelephense.files.maxSize": 10000000,
+    "intelephense.maxMemory": 1024,
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.svn/**",
@@ -58,11 +61,5 @@
         "phpserver/**",
         "pub/**",
         "setup/**"
-    ],
-    "intelephense.environment.includePaths": [
-        "generated/",
-        "vendor/phpunit/"
-    ],
-    "intelephense.files.maxSize": 10000000,
-    "intelephense.maxMemory": 4096
+    ]
 }

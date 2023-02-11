@@ -101,7 +101,12 @@
         }
     ],
     "extra": {
-        "magento-force": "override"
+        "magento-force": "override",
+        "magento-deploy-ignore": {
+            "*": [
+                "/.gitignore"
+            ]
+        }
     },
     "scripts": {
         "test": "./vendor/bin/phpunit -c dev/tests/unit/phpunit.xml.dist app",
