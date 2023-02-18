@@ -1,65 +1,72 @@
 {
-    "editor.renderWhitespace": "all",
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120,
-    "editor.minimap.enabled": false,
-    "editor.inlineSuggest.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.hover.above": false,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "files.eol": "\n",
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "php.suggest.basic": false,
-    "emmet.includeLanguages": {
-        "vue-html": "html",
-        "javascript": "javascriptreact"
-    },
-    "[php]": {
-        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[xml]": {
-        "editor.defaultFormatter": "redhat.vscode-xml"
-    },
-    "files.associations": {
-        "*.phtml": "php"
-    },
-    "phpsab.snifferMode": "onSave",
-    "phpsab.standard": "/phpcs.xml",
-    "phpsab.snifferShowSources": true,
-    "phpmd.unsafeCommand": "vendor/bin/phpmd",
-    "phpmd.rules": "/phpmd.xml",
-    "phpmd.verbose": false,
-    "xml.catalogs": [".vscode/catalog.xml"],
-    "xml.format.maxLineWidth": 120,
-    "intelephense.environment.phpVersion": "8.1",
-    "intelephense.files.maxSize": 10000000,
-    "intelephense.maxMemory": 1024,
-    "intelephense.files.exclude": [
-        "**/.git/**",
-        "**/.svn/**",
-        "**/.hg/**",
-        "**/CVS/**",
-        "**/.DS_Store/**",
-        "**/node_modules/**",
-        "**/bower_components/**",
-        "**/vendor/**/{Tests,tests}/**",
-        "**/.history/**",
-        "**/vendor/**/vendor/**",
-        "app/etc/**",
-        "app/autoload.php",
-        "app/bootstrap.php",
-        "lib/**",
-        "phpserver/**",
-        "pub/**",
-        "setup/**"
-    ]
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.hover.above": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.phtml": "php"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+  },
+  "[javascript][javascriptreact][typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.format.semicolons": "insert",
+  "javascript.preferences.quoteStyle": "single",
+  "js/ts.implicitProjectConfig.target": "ES5",
+  "php.suggest.basic": false,
+  "phpsab.snifferMode": "onSave",
+  "phpsab.standard": "/phpcs.xml",
+  "phpsab.snifferShowSources": true,
+  "phpmd.unsafeCommand": "vendor/bin/phpmd",
+  "phpmd.rules": "/phpmd.xml",
+  "phpmd.verbose": false,
+  "xml.catalogs": [
+    ".vscode/catalog.xml"
+  ],
+  "xml.format.maxLineWidth": 120,
+  "intelephense.environment.phpVersion": "8.1",
+  "intelephense.files.maxSize": 10000000,
+  "intelephense.maxMemory": 1024,
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**/{Tests,tests}/**",
+    "**/.history/**",
+    "**/vendor/**/vendor/**",
+    "app/etc/**",
+    "app/autoload.php",
+    "app/bootstrap.php",
+    "lib/**",
+    "phpserver/**",
+    "pub/**",
+    "setup/**"
+  ]
 }
