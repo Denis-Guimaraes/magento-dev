@@ -29,8 +29,7 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
-    "vue-html": "html",
-    "javascript": "javascriptreact"
+    "vue-html": "html"
   },
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "javascript.format.semicolons": "insert",
